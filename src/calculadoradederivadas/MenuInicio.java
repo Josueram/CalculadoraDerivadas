@@ -123,8 +123,9 @@ public class MenuInicio extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        ReglaDeLos4Pasos fra = new ReglaDeLos4Pasos();
-        fra.setVisible(true);
+        ReglaDeLos4Pasos open = new ReglaDeLos4Pasos();
+        open.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
